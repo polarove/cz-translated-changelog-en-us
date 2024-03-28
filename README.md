@@ -15,17 +15,17 @@
 
 ## Demostrate
 
-![演示](https://raw.githubusercontent.com/polarove/cz-translated-changelog/master/assets/en-us/demo.gif)
+![演示](https://raw.githubusercontent.com/polarove/cz-translated-changelog-en-us/master/assets/demo.gif)
 
 ## New features
 
 🚀 a prompt window that allows you to check your message in summary
 
-![新功能](https://raw.githubusercontent.com/polarove/cz-translated-changelog/master/assets/en-us/confirm-prompt.png)
+![新功能](https://raw.githubusercontent.com/polarove/cz-translated-changelog-en-us/master/assets/confirm-prompt.png)
 
 ✨ adds `!` to your messages automatically and mark it as `BREAKING CHANGES`
 
-![新功能](https://raw.githubusercontent.com/polarove/cz-translated-changelog/master/assets/en-us/exclamation-mark.png)
+![新功能](https://raw.githubusercontent.com/polarove/cz-translated-changelog-en-us/master/assets/exclamation-mark.png)
 
 ## Get started
 
