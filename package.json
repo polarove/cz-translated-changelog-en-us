@@ -19,7 +19,7 @@
   "homepage": "https://github.com/commitizen/cz-conventional-changelog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/polarove/cz-translated-changelog/tree/master/packages/en-us"
+    "url": "https://github.com/polarove/cz-translated-changelog-en-us"
   },
   "engineStrict": true,
   "engines": {
