@@ -1,0 +1,63 @@
+{
+  "name": "@cz-translated-changelog/en-us",
+  "version": "0.0.6",
+  "description": "cz-convention-changelog with exclamation marks and a confirm window",
+  "main": "index.js",
+  "keywords": [
+    "commitizen",
+    "conventional changelog",
+    "exclamation mark",
+    "summary on commit-msg",
+    "English"
+  ],
+  "scripts": {
+    "commit": "git-cz",
+    "test": "mocha *.test.js",
+    "format": "prettier --write *.js",
+    "semantic-release": "semantic-release"
+  },
+  "homepage": "https://github.com/commitizen/cz-conventional-changelog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polarove/cz-translated-changelog/tree/master/packages/en-us"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 10"
+  },
+  "author": "liuq <liuqi6602@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commitizen": "^4.0.3",
+    "conventional-commit-types": "^3.0.0",
+    "lodash.assign": "^4.2.0",
+    "lodash.map": "^4.5.1",
+    "longest": "^2.0.1",
+    "word-wrap": "^1.0.3",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "cosmiconfig": "^5.2.1",
+    "mocha": "^6.2.0",
+    "mock-require": "^3.0.3",
+    "semantic-release": "^15.13.3",
+    "semver": "^6.2.0"
+  },
+  "optionalDependencies": {
+    "@commitlint/load": ">6.1.1"
+  },
+  "peerDependencies": {
+    "commitizen": ">=4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
+  }
+}
