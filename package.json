@@ -1,6 +1,6 @@
 {
   "name": "@cz-translated-changelog/en-us",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "cz-convention-changelog with exclamation marks and a confirm window",
   "main": "index.js",
   "keywords": [
