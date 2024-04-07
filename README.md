@@ -3,11 +3,11 @@
 > [!TIP]
 > cz-conventional-changelog with two more features
 
-[![npm version](https://img.shields.io/npm/v/@cz-translated-changelog/en-us.svg?style=flat-square)](https://www.npmjs.com/package/@cz-translated-changelog/en-us) [![npm downloads](https://img.shields.io/npm/dm/@cz-translated-changelog/en-us.svg?style=flat-square)](http://npm-stat.com/charts.html?package=@cz-translated-changelog/en-us&from=2024-03-16)
+[![npm version][npm-version-src]][npm-package-href][![npm downloads][npm-monthly-downloads-src]][npm-monthly-downloads-href][![License][license-src]][npm-package-href]
 
 ## standards
 
-- reference to: [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- referred to: [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 - uses `!` to mark `BREAKING CHANGES`
 
@@ -86,3 +86,19 @@ these environment variables are used to override configs，including config insd
 ## Commitlint
 
 If using the [commitlint](https://github.com/conventional-changelog/commitlint) js library, the "maxHeaderWidth" configuration property will default to the configuration of the "header-max-length" rule instead of the hard coded value of 100. This can be ovewritten by setting the 'maxHeaderWidth' configuration in package.json or the CZ_MAX_HEADER_WIDTH environment variable.
+
+## License
+
+[MIT License](./LICENSE)
+
+<!-- Badges -->
+
+[npm-package-href]: https://npmjs.com/package/@cz-translated-changelog/en-us
+
+[npm-monthly-downloads-src]: https://img.shields.io/npm/dm/@cz-translated-changelog/en-us.svg?style=flat-square
+
+[npm-monthly-downloads-href]: http://npm-stat.com/charts.html?package=@cz-translated-changelog/en-us&from=2024-03-16
+
+[npm-version-src]: https://img.shields.io/npm/v/@cz-translated-changelog/en-us/latest.svg?style=flat-square
+
+[license-src]: https://img.shields.io/npm/l/@cz-translated-changelog/en-us.svg?style=flat-square
